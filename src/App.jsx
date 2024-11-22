@@ -1,7 +1,10 @@
+import Hero from './components/Hero';
+
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline font-circular-web text-violet-300">
-      Hello world!
-    </h1>
+    <main className='relative min-h-screen w-screen overflow-x-hidden'>
+      <Hero />
+
+    </main>
   )
 }
